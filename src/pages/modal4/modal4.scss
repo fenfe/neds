@@ -1,0 +1,131 @@
+page-modal4 {
+   
+
+        .slider-img.swiper-slides {
+                
+        }
+        .thumb-img {
+            padding: 5px;
+            
+        }
+    
+        .content
+        {
+           
+            background-size: cover;
+            background: url("https://images.pexels.com/photos/1055613/pexels-photo-1055613.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") no-repeat center center fixed;
+            background-blend-mode: darken;
+            // blend mode optional at this stage; will be used more in the next demo.
+            transition: 3s;
+        }
+    
+        .crossfade > figure {
+            
+              animation: imageAnimation 30s linear infinite 0s;
+            
+              backface-visibility: hidden;
+            
+              background-size: cover;
+            
+              background-position: center center fixed ;
+            
+              color: transparent;
+            
+              height: 100%;
+            
+              left: -40px;
+            
+              opacity: 0;
+            
+              position: absolute;
+            
+              top: -2px;
+            
+              width: 100%;
+            
+              z-index: 0;
+            
+            }
+    
+    
+.crossfade > figure:nth-child(1) { background-image: url('https://images.pexels.com/photos/322154/pexels-photo-322154.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') ; }
+    
+     
+    
+    .crossfade > figure:nth-child(2) {
+    
+      animation-delay: 6s;
+    
+      background-image: url('https://images.pexels.com/photos/276566/pexels-photo-276566.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+      background-position: center;
+    
+    }
+    
+     
+    
+    .crossfade > figure:nth-child(3) {
+    
+      animation-delay: 12s;
+    
+      background-image: url('https://images.pexels.com/photos/1543439/pexels-photo-1543439.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    
+    }
+    
+     
+    
+    .crossfade > figure:nth-child(4) {
+    
+      animation-delay: 18s;
+    
+      background-image: url('https://images.pexels.com/photos/1879069/pexels-photo-1879069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1260');
+    
+    }
+    
+     
+    
+    .crossfade > figure:nth-child(5) {
+    
+      animation-delay: 24s;
+    
+      background-image: url('https://images.pexels.com/photos/273920/pexels-photo-273920.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    
+    }
+    
+    @keyframes
+    
+    imageAnimation {  0% {
+    
+     animation-timing-function: ease-in;
+    
+     opacity: 0;
+    
+    }
+    
+     8% {
+    
+     animation-timing-function: ease-out;
+    
+     opacity: 1;
+    
+    }
+    
+     17% {
+    
+     opacity: 1
+    }
+    
+     25% {
+     opacity: 0
+    
+    }
+     100% {
+    
+     opacity: 0
+    18
+    }
+    }
+    
+            
+    }
+    
+
